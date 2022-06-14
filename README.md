@@ -35,6 +35,7 @@
 Understand how many parallel sessions you need by using our [Parallel Test Calculator](https://www.browserstack.com/automate/parallel-calculator?ref=github)
 
 ## Notes
+* This repository only works for Selenium 3 as of now. Desired Capabilities do not get honoured for Selenium 4. The open issue on SeleniumLibrary can be found [here](https://github.com/robotframework/SeleniumLibrary/issues/1774).
 * You can view your test results on the [BrowserStack Automate dashboard](https://www.browserstack.com/automate)
 * To test on a different set of browsers, check out our [platform configurator](https://www.browserstack.com/automate/java#setting-os-and-browser)
 
