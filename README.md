@@ -20,7 +20,7 @@
 ## Running tests
 
 * To run single test, run `robot tests/SingleTest.robot`
-* To run local tests, run `robot tests/LocalTest.robot`
+* To run local tests, run `sh runLocalTest.sh `
 * To run parallel tests we will be using the [Pabot](https://pabot.org/) library, 
   1. Test Suite level
      * Run - `pabot --processes <count_of_parallels> tests/parallel/*.robot`
