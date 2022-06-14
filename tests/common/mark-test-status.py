@@ -1,0 +1,14 @@
+try:
+    from robot.libraries.BuiltIn import BuiltIn
+    from robot.libraries.BuiltIn import _Misc
+    import robot.api.logger as logger
+    from robot.api.deco import keyword
+    ROBOT = False
+except Exception:
+    ROBOT = False
+
+@keyword("TEST STATUS")
+def testStatus(status, reason):
+     driver = BuiltIn().get_library_instance('SeleniumLibrary').driver
+     driver.execute_script('browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"'+status+'", "reason": "'+reason+'"}}')
+
