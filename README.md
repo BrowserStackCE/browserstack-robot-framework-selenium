@@ -5,8 +5,8 @@
 ## Setup
 * Clone the repo
 * Install dependencies  
-  * `pip install robotframework`
-  * `pip install --upgrade robotframework-seleniumlibrary`
+  * `pip install robotframework==3.2.2`
+  * `pip install --upgrade robotframework-seleniumlibrary==5.1.1`
   * `pip install robotframework-pabot`
 
 ## Set BrowserStack Credentials 
