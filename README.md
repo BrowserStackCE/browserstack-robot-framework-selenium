@@ -8,6 +8,7 @@
   * `pip install robotframework==3.2.2`
   * `pip install --upgrade robotframework-seleniumlibrary==5.1.1`
   * `pip install robotframework-pabot`
+  * `pip install browserstack-local`
 
 ## Set BrowserStack Credentials 
 * You can export the environment variables for the Username and Access Key of your BrowserStack account. 
