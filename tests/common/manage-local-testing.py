@@ -1,10 +1,10 @@
 try:
+    import os
     from robot.libraries.BuiltIn import BuiltIn
     from robot.libraries.BuiltIn import _Misc
     import robot.api.logger as logger
     from robot.api.deco import keyword
     from browserstack.local import Local
-    import os
     ROBOT = False
 except Exception:
     ROBOT = False
