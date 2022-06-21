@@ -1,13 +1,9 @@
-try:
-    import os
-    from robot.libraries.BuiltIn import BuiltIn
-    from robot.libraries.BuiltIn import _Misc
-    import robot.api.logger as logger
-    from robot.api.deco import keyword
-    from browserstack.local import Local
-    ROBOT = False
-except Exception:
-    ROBOT = False
+import os
+from robot.libraries.BuiltIn import BuiltIn
+from robot.libraries.BuiltIn import _Misc
+import robot.api.logger as logger
+from robot.api.deco import keyword
+from browserstack.local import Local
 
 access_key = os.getenv("BROWSERSTACK_ACCESS_KEY")
 bs_local = Local()
